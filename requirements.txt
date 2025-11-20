@@ -1,0 +1,3 @@
+fastmcp>=0.1.0
+asteval>=0.9.27
+pywin32>=306; platform_system=="Windows"

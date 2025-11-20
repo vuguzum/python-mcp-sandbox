@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-code-sandbox"
+version = "0.1.0"
+description = "FastMCP server for testing and syntax cheching of generated python code"
+authors = [{ name="Alexander Kazantsev", email="akazant@gmail.com" }]
+dependencies = [
+  "asteval",
+  "fastmcp",
+  "pywin32"
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+python-code-sandbox = "python_code_sandbox.python_code_sandbox:main"
+
