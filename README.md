@@ -52,7 +52,7 @@ python-mcp-sandbox/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/python-mcp-sandbox.git
+git clone https://github.com/vuguzum/python-mcp-sandbox.git
 cd python-mcp-sandbox
 
 # Install in editable mode
