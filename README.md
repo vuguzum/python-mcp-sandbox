@@ -156,7 +156,7 @@ Log files are written to your system’s temp directory:
 
 
 ##  📌 Notes
-- Windows: For full resource limits, install ```pywin32```. Without it, only timeout is enforced.
+- Windows: For full resource limits, install ```pywin32```. Without it, only ```timeout``` is enforced.
 - Linux/macOS: Full resource control via resource module is available by default.
 - No internet access is allowed — the sandbox blocks all network calls.
 - No file system access — ```open()``` and ```pathlib``` are disabled.
