@@ -1,5 +1,4 @@
 # safe_executor.py
-
 import json
 import subprocess
 import sys
@@ -318,4 +317,5 @@ class SafeExecutor:
                 }}
                 sys.stdout.write(json.dumps(result))
                 sys.stdout.flush()
+
         ''')
